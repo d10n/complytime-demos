@@ -7,8 +7,7 @@ cmd=(
     -v "$HOME/code/vm-toolbox:/vm-toolbox:Z"
     -p 127.0.0.1:2222:2222
 
-    complytime_centos
-    #complytime_fedora
+    complytime_ansible_container
 
     /bin/bash
 )
